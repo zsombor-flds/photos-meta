@@ -1,0 +1,11 @@
+[project]
+name = "photos-meta"
+version = "0.1.0"
+description = "Simple cli to add metadata stamp to pictures from EXIF"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "exifread>=3.0.0",
+    "geopy>=2.4.1",
+    "pillow>=11.0.0",
+]
